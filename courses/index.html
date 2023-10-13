@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[211908] Tarefa Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="../bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="courses.css" />
+  </head>
+  <body>
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Cursos disponíveis</h2>
+
+      <a href="../main/index.html"
+        ><img id="navbar-logo" src="../assets/navbar-logo.png" alt="JCoffee"
+      /></a>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            id="course-card"
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('../assets/courses/entradas.png')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Entradas</h2>
+              <p>
+                Aprenda a fazer diversas entradas para sua cafeteria, além de
+                obter conhecimento em toda parte de gestão. <b>(10h)</b>
+              </p>
+
+              <button
+                class="btn btn-lg btn-primary"
+                onclick="clickBuy('Entradas e Gerenciamento')"
+              >
+                Comprar agora
+              </button>
+
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    id="logo-img"
+                    src="../assets/courses/logo.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>10h</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>R$ 250,00</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            id="course-card"
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('../assets/courses/principais.png')"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Pratos Principais
+              </h2>
+              <p>
+                Aprenda a fazer os principais pratos para sua cafeteria, além de
+                obter conhecimento em toda parte de gestão. <b>(25h)</b>
+              </p>
+
+              <button
+                class="btn btn-lg btn-primary"
+                onclick="clickBuy('Pratos Principais e Gerenciamento')"
+              >
+                Comprar agora
+              </button>
+
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    id="logo-img"
+                    src="../assets/courses/logo.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>25h</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>R$400,00</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            id="course-card"
+            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('../assets/courses/sobrmesa.png')"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sobremesas</h2>
+              <p>
+                Aprenda a fazer os principais pratos para sua cafeteria, além de
+                obter conhecimento em toda parte de gestão. <b>(25h)</b>
+              </p>
+
+              <button
+                class="btn btn-lg btn-primary"
+                onclick="clickBuy('Sobremesas e Gerenciamento')"
+              >
+                Comprar agora
+              </button>
+
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    id="logo-img"
+                    src="../assets/courses/logo.png"
+                    alt="Bootstrap"
+                    width="32"
+                    height="32"
+                    class="rounded-circle border border-white"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>25h</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>R$350,00</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="buy.js"></script>
+  </body>
+</html>

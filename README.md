@@ -6,7 +6,7 @@ O projeto foi desenvolvido para a matéria de Desenvolvimento Web, consiste na u
 O tema do projeto foi definido pelo professor em: Cursos Culinários.
   <i>*Não possui integração com banco de dados, tem apenas objetivo da criação de interface.</i>
 
-##Exemplos
+## Exemplos
 
 ![Sign-in Page](.examples/ex_signin.png)
 

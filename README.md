@@ -4,7 +4,7 @@ O projeto foi desenvolvido para a matéria de Desenvolvimento Web, consiste na u
 
 ## Objetivo
 <p>O tema do projeto foi definido como: Cursos Culinários.<br>
-<i>*Não possui integração com banco de dados, apenas possui finalidade de elaboração da interface.</i></p>
+<i>*Não possui integração com banco de dados, apenas tem finalidade de elaboração da interface.</i></p>
 
 ## Exemplos
 

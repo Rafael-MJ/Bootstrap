@@ -2,9 +2,9 @@
 ## Descrição
 O projeto foi desenvolvido para a matéria de Desenvolvimento Web, consiste na utilização de estruturas simples para a criação de uma interface web.
 
-## Tema
-O tema do projeto foi definido pelo professor em: Cursos Culinários.
-  <i>*Não possui integração com banco de dados, tem apenas objetivo da criação de interface.</i>
+## Objetivo
+<p>O tema do projeto foi definido como: Cursos Culinários.<br>
+<i>*Não possui integração com banco de dados, apenas possui finalidade de elaborar a interface.</i></p>
 
 ## Exemplos
 
